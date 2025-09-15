@@ -50,10 +50,9 @@
           </button>
 
           <button
-            @click="$emit('navigate', '/membership')"
             class="px-8 py-4 border-2 border-red-500 text-red-500 font-semibold rounded-full hover:bg-red-600/10 transition-all duration-300 focus:outline-none focus:ring-4 focus:ring-red-500/30"
           >
-            Join Our Community
+            <a href="https://tally.so/r/m61eDA"> <span>Become a Member</span> </a>
           </button>
         </div>
       </div>
