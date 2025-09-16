@@ -1,13 +1,12 @@
 <template>
   <header class="bg-white shadow-md fixed w-full z-50">
     <div class="max-w-7xl mx-auto flex justify-between items-center px-6 py-2">
-      
+
       <!-- Logos clickable to navigate home -->
       <NuxtLink to="/" class="flex items-center space-x-4 md:space-x-6 cursor-pointer">
         <img src="/logo_acm.png" alt="Logo" class="h-14 w-auto" />
         <img src="/um6p.png" alt="um6p_logo" class="h-8 w-auto" />
       </NuxtLink>
-
 
       <!-- Desktop navigation -->
       <nav class="hidden md:flex">
@@ -16,7 +15,12 @@
           <li @click="$emit('scroll', 'team')" class="text-gray-700 hover:text-red-500 cursor-pointer font-medium">The Team</li>
           <li @click="$emit('scroll', 'contacts')" class="text-gray-700 hover:text-red-500 cursor-pointer font-medium">Contact</li>
           <li @click="$emit('navigate', '/blog')" class="text-gray-700 hover:text-red-500 cursor-pointer font-medium">Blog</li>
-          <li class="text-gray-700 hover:text-red-500 cursor-pointer font-medium"><a href="https://tally.so/r/m61eDA">Become a Member</a></li>
+          <li class="text-gray-700 hover:text-red-500 cursor-pointer font-medium">
+            <a href="https://tally.so/r/m61eDA">Become a Member</a>
+          </li>
+          <li class="text-gray-700 hover:text-red-500 cursor-pointer font-medium">
+            <NuxtLink to="/alumni">Alumni</NuxtLink>
+          </li>
         </ul>
       </nav>
 

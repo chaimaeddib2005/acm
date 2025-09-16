@@ -1,5 +1,5 @@
 <template>
-    <navbar />
+    <navbar2 />
   <div class="bg-black min-h-screen text-white pt-16 px-4">
     <section class="max-w-7xl mx-auto">
       
